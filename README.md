@@ -1,4 +1,6 @@
-<a href="https://www.tindie.com/stores/electroniccats/?ref=offsite_badges&utm_source=sellers_electroniccats&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+<a href="https://electroniccats.com/producto/magspoof/">
+  <img src="https://media.discordapp.net/attachments/562297893667471381/619566704372219915/unknown.png?width=441&height=228" width="200" height="104" />
+</a>
 
 # [MagSpoof](http://samy.pl/magspoof/) - credit card/magstripe spoofer
 * Allows you to store all of your credit cards and magstripes in one device
