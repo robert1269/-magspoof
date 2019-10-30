@@ -26,7 +26,7 @@ MagSpoof can be used as a traditional credit card and simply store all of your c
 
 **Released:** November 24, 2015
 
-**Source code / schematic:** [https://github.com/samyk/magspoof](https://github.com/samyk/magspoof)
+**Source code / schematic:** [https://github.com/ElectronicCats/magspoof](https://github.com/ElectronicCats/magspoof)
 
 -----
 
@@ -106,8 +106,9 @@ To actually perform the transaction without arousing suspicion, an attacker woul
 I notified American Express of the issue and I will not be releasing their algorithm.
 
 -----
+# Hardware Versions
 
-# Hardware
+## Version DIY
 
 
 [![MagSpoof](http://samy.pl/magspoof/magspoof.jpg)](http://samy.pl/magspoof/magspoof.jpg)
@@ -141,14 +142,76 @@ For soldering everything together.
 
 [![MagSpoof Schematic (DIP version)](https://raw.githubusercontent.com/samyk/magspoof/master/magspoof-schematic-dip.png)](https://raw.githubusercontent.com/samyk/magspoof/master/magspoof-schematic-dip.png)
 
+
+
+## Hardware V1
+
+[![MagSpoof](https://electroniccats.com/wp-content/uploads/2018/02/product-600x600.png)](https://electroniccats.com/wp-content/uploads/2018/02/product-600x600.png)
+
+### [Atmel ATtiny85](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf) (microcontroller)
+An Atmel ATtiny85 is the microcontroller to drive the entire system. It stores all of the magnetic stripe / credit card data. In a thinner, credit-card sized (0.8mm thick!) version, I use an [ATtiny10].
+
+### [TC4424 H-Bridge](http://ww1.microchip.com/downloads/en/DeviceDoc/21421E.pdf) (motor driver)
+I use an TC4424 H-bridge to drive the electromagnet. The TC4424 is a motor driver, but motors are actually driven by the electromagnet(s) and magnets inside of them. Any standard driver should work here. Technically the TC4424 doesn't work down at 3.7V (voltage of the LiPo battery), but it works surprisingly well.
+
+### [24AWG Magnet Wire](http://amzn.to/1lu0ihK) (coil)
+I use somewhere around ~24AWG magnet wire to act as the coil to produce the electromagnetic field. This piece of wire incredibly produces an electromagnetic field that makes the card reader believe a card is being swiped. Incredible. By rapidly controlling the polarization of this field, the magstripe reader believes the flipped bits of a real card are being swiped through the reader.
+
+### [100mAh 3.7V LiPo battery](http://amzn.to/1S3h69E) (the powah)
+A small 100mAh 3.7V lipo battery powers our contraption. For the credit card size version (not shown here), I use a battery from [PowerStream](http://www.powerstream.com/thin-lithium-ion.htm).
+
+#### [100µF Capacitor](http://amzn.to/1MAONOc)
+Keep enough energy in this capacitor to provide the electromagnet with power when we need it, otherwise it will pull too much current and reset the microcontroller. This is the capacitor kit I use as it has all the standard values I'd need.
+
+#### [LED](http://amzn.to/1Hl3y8Z)
+To signal to us when we transmit information. I use this LED kit as it has a nice variety of LEDs.
+
+#### [100Ω Resistor](http://amzn.to/1IeCMtP)
+Don't burn out the LED.
+
+#### [Momentary Switch](http://amzn.to/1Hl3R3T)
+Initiate the electromagnet.
+
+
+## Hardware V3
+
+[![MagSpoofV3](https://pbs.twimg.com/media/EIFyNhSXYAEjhra?format=jpg&name=large)](https://pbs.twimg.com/media/EIFyNhSXYAEjhra?format=jpg&name=large)
+
+### [Atmel SAMD11]() (microcontroller)
+An Atmel SAMD11 is the microcontroller ARM Cortex M0+ of 32bits to drive the entire system. It stores all of the magnetic stripe / credit card data. In a thinner, credit-card sized (0.8mm thick!) version.
+
+### [TC4424 H-Bridge]() (motor driver)
+I use an L293D H-bridge to drive the electromagnet. The L293D is a motor driver, but motors are actually driven by the electromagnet(s) and magnets inside of them. Any standard driver should work here. Technically the L293D doesn't work down at 3.7V (voltage of the LiPo battery), but it works surprisingly well. In the credit-card size version, I suggest using a the TI DRV8835 or [TI DRV8833](http://amzn.to/1lu0bTd).
+
+### [24AWG Magnet Wire](http://amzn.to/1lu0ihK) (coil)
+I use somewhere around ~24AWG magnet wire to act as the coil to produce the electromagnetic field. This piece of wire incredibly produces an electromagnetic field that makes the card reader believe a card is being swiped. Incredible. By rapidly controlling the polarization of this field, the magstripe reader believes the flipped bits of a real card are being swiped through the reader.
+
+### [100mAh 3.7V LiPo battery](http://amzn.to/1S3h69E) (the powah)
+A small 100mAh 3.7V lipo battery powers our contraption. For the credit card size version (not shown here), I use a battery from [PowerStream](http://www.powerstream.com/thin-lithium-ion.htm).
+
+#### [100µF Capacitor](http://amzn.to/1MAONOc)
+Keep enough energy in this capacitor to provide the electromagnet with power when we need it, otherwise it will pull too much current and reset the microcontroller. This is the capacitor kit I use as it has all the standard values I'd need.
+
+#### [LED](http://amzn.to/1Hl3y8Z)
+To signal to us when we transmit information. I use this LED kit as it has a nice variety of LEDs.
+
+#### [100Ω Resistor](http://amzn.to/1IeCMtP)
+Don't burn out the LED.
+
+#### [Momentary Switch](http://amzn.to/1Hl3R3T)
+Initiate the electromagnet.
+
+
 -----
 
 # Firmware
 
 ### MagSpoof
-MagSpoof's source code and schematic can be obtained in entirety from my github: <https://github.com/samyk/magspoof>
+MagSpoof's source code and schematic can be obtained in entirety from my github: <https://github.com/ElectronicCats/magspoof>
 
-MagSpoof is compatible with the Arduino framework and can work on traditional Arduinos as well as ATtiny chips.
+MagSpoof V1 is compatible with the Arduino framework and can work on traditional Arduinos as well as ATtiny chips.
+
+MagSpoof V3 is compatible with the Arduino framework and can work on traditional Arduinos as well as SAMD chips.
 
 
 -----
@@ -169,11 +232,26 @@ You can learn about magnetic stripes and credit cards from a few places, includi
 
 -----
 
-# Contact
+# Based in work of SamyKamkar
 
 **Point of Contact:** [@SamyKamkar](https://twitter.com/samykamkar)
 
 You can see more of my projects at <http://samy.pl> or contact me at <code@samy.pl>.
 
+
+------
+
+------
+# Electronic Cats Hardware Versions
+
+Designed by Electronic Cats.
+
+Firmware released under an GNU AGPL v3.0 license. See the LICENSE file for more information.
+
+Hardware released under an CERN Open Hardware Licence v1.2. See the LICENSE_HARDWARE file for more information.
+
+Electronic Cats is a registered trademark, please do not use if you sell these PCBs.
+
+30 Octuber 2019
 
 ------
