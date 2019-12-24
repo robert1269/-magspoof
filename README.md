@@ -204,14 +204,22 @@ Initiate the electromagnet.
 
 -----
 
-# Firmware
+# Learn how to use the Magspoof with Arduino Firmware
 
-### MagSpoof
-MagSpoof's source code and schematic can be obtained in entirety from my github: <https://github.com/ElectronicCats/magspoof>
+## MagSpoof V1
 
-MagSpoof V1 is compatible with the Arduino framework and can work on traditional Arduinos as well as ATtiny chips.
+MagSpoof V1 is compatible with the Arduino framework and can work on traditional Arduinos as well as ATtiny chips of Electronic Cats.
 
-MagSpoof V3 is compatible with the Arduino framework and can work on traditional Arduinos as well as SAMD chips.
+Learn how to use the Magspoof V1 with Arduino in
+[Instructables](https://www.instructables.com/id/Getting-Started-With-MagSpoof)
+
+
+## MagSpoof V3
+
+MagSpoof V3 is compatible with the Arduino framework and can work on traditional Arduinos as well as SAMDLC chips.
+
+Learn how to use the Magspoof V3 with Arduino in
+[Electronic Cats Board Index SAMDLC](https://github.com/ElectronicCats/Arduino_Boards_Index)
 
 
 -----
