@@ -1,7 +1,9 @@
 /************************************************************
   Magspoof V3
-  Created by Salvador Mendoza @ Netxing
+  Modified version by Salvador Mendoza (salmg.net)
   for Electronic Cats
+  
+  Original code by Samy Kamkar (http://samy.pl/magspoof/)
   
   This example demonstrates how to use Magspoof v3 by Electronic Cats
   https://github.com/ElectronicCats/magspoof
