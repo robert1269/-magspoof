@@ -1,4 +1,4 @@
-<a href="https://electroniccats.com/producto/magspoof/">
+<a href="https://electroniccats.com/producto/magspoof-v3/">
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" height="104" />
 </a>
 
