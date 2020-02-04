@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Magspoof_V3-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -292,6 +293,8 @@ F 3 "" H 4355 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4355 1950 4355 1815
+Wire Wire Line
+	1030 3010 1030 3115
 $Comp
 L power:+3V3 #PWR0112
 U 1 1 5D62EE38
@@ -841,6 +844,18 @@ Wire Wire Line
 	4305 3515 4305 3560
 Wire Wire Line
 	4305 3860 4305 3905
+$Comp
+L Device:D_Schottky D5
+U 1 1 5D64C04E
+P 1030 2860
+F 0 "D5" H 1030 2644 50  0000 C CNN
+F 1 "MBR120" H 1030 2735 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 1030 2860 50  0001 C CNN
+F 3 "~" H 1030 2860 50  0001 C CNN
+F 4 "MBR120VLSFT3G" H 0   0   50  0001 C CNN "manf#"
+	1    1030 2860
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	1030 2650 1030 3115
+	1030 2650 1030 2710
 $EndSCHEMATC
