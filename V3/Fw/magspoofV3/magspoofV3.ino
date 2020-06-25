@@ -48,6 +48,7 @@ unsigned int curTrack = 0;
 int dir;
 
 void setup(){
+  Serial.begin(9600);
   pinMode(LED, OUTPUT);
   pinMode(PIN_A, OUTPUT);
   pinMode(PIN_B, OUTPUT);
