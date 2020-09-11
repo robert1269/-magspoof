@@ -250,7 +250,9 @@ You can see more of my projects at <http://samy.pl> or contact me at <code@samy.
 ------
 
 ------
-# Electronic Cats Hardware Versions
+# License
+
+![OpenSourceLicense](https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png)
 
 Designed by Electronic Cats.
 
