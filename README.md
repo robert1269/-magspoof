@@ -1,8 +1,10 @@
+
+# MagSpoof v3 - credit card/magstripe spoofer
+
 <a href="https://electroniccats.com/producto/magspoof-v3/">
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" height="104" />
 </a>
 
-# [MagSpoof](http://samy.pl/magspoof/) - credit card/magstripe spoofer
 * Allows you to store all of your credit cards and magstripes in one device
 * Works on traditional magstripe readers **wirelessly** (no NFC/RFID required)
 * Can **disable** Chip-and-PIN (code not included)
@@ -10,7 +12,7 @@
 * Supports all three magnetic stripe tracks, and even supports Track 1+2 simultaneously
 * Easy to build using Arduino or other common parts
 
-**[MagSpoof](http://samy.pl/magspoof)** is a device that can spoof/emulate any magnetic stripe or credit card. It can work "wirelessly", even on **standard magstripe/credit card readers**, by generating a strong electromagnetic field that emulates a traditional magnetic stripe card.
+**MagSpoof V3** is a device that can spoof/emulate any magnetic stripe or credit card. It can work "wirelessly", even on **standard magstripe/credit card readers**, by generating a strong electromagnetic field that emulates a traditional magnetic stripe card.
 
 **Note:** MagSpoof does **not** enable you to use credit cards that you are not legally authorized to use. The Chip-and-PIN and Amex information is **not** implemented and using MagSpoof requires you to have/own the magstripes that you wish to emulate. Simply having a credit card number and expiration is not enough to perform transactions. MagSpoof **does** allow you to perform research in other areas of magstripes, microcontrollers, and electromagnetism, as well as learn about and create your own devices similar to other existing, commercial technologies such as <a href="http://www.samsung.com/us/support/answer/ANS00043865/997410383/">Samsung MST</a> and <a href="https://onlycoin.com/">Coin</a>.</p>
 
@@ -200,6 +202,10 @@ Don't burn out the LED.
 
 #### [Momentary Switch](http://amzn.to/1Hl3R3T)
 Initiate the electromagnet.
+
+#### Coil
+SWC4242KB120-100 or WMRR138F-0
+
 
 
 -----
