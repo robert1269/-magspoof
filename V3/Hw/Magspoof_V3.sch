@@ -31,9 +31,9 @@ U 1 1 5D61F320
 P 6720 3040
 F 0 "U3" H 6720 3577 60  0000 C CNN
 F 1 "TC4424" H 6720 3471 60  0000 C CNN
-F 2 "Hw:SON65P300X300X80-9N" H 6720 3040 60  0001 C CNN
+F 2 "magspoof:TC4424EMF" H 6720 3040 60  0001 C CNN
 F 3 "https://www.mouser.mx/datasheet/2/268/21998b-53545.pdf" H 6720 3040 60  0001 C CNN
-F 4 "TC4424AVOA713" H 6720 3040 50  0001 C CNN "manf#"
+F 4 "" H 6720 3040 50  0001 C CNN "manf#"
 	1    6720 3040
 	1    0    0    -1  
 $EndComp
@@ -230,9 +230,9 @@ Wire Wire Line
 	5720 3215 5720 3090
 Wire Wire Line
 	5720 3090 6220 3090
-Text Label 6220 2940 2    50   ~ 0
+Text Label 6025 3240 0    50   ~ 0
 IN_A
-Text Label 6220 3240 2    50   ~ 0
+Text Label 6025 2940 0    50   ~ 0
 IN_B
 Text Label 7220 2940 0    50   ~ 0
 Out_A
@@ -948,14 +948,18 @@ Wire Notes Line
 Wire Notes Line
 	4085 6075 470  6075
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0101
 U 1 1 61205C91
 P 7655 2960
-F 0 "#PWR?" H 7655 2810 50  0001 C CNN
+F 0 "#PWR0101" H 7655 2810 50  0001 C CNN
 F 1 "+3V3" H 7670 3133 50  0000 C CNN
 F 2 "" H 7655 2960 50  0001 C CNN
 F 3 "" H 7655 2960 50  0001 C CNN
 	1    7655 2960
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6025 2940 6220 2940
+Wire Wire Line
+	6025 3240 6220 3240
 $EndSCHEMATC

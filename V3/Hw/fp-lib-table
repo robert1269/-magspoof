@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name magspoof)(type KiCad)(uri ${KIPRJMOD}/Library/magspoof.pretty)(options "")(descr ""))
+)
