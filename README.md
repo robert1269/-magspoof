@@ -183,7 +183,7 @@ Initiate the electromagnet.
 An Atmel SAMD11 is the microcontroller ARM Cortex M0+ of 32bits to drive the entire system. It stores all of the magnetic stripe / credit card data. In a thinner, credit-card sized (0.8mm thick!) version.
 
 ### [TC4424 H-Bridge]() (motor driver)
-I use an L293D H-bridge to drive the electromagnet. The L293D is a motor driver, but motors are actually driven by the electromagnet(s) and magnets inside of them. Any standard driver should work here. Technically the L293D doesn't work down at 3.7V (voltage of the LiPo battery), but it works surprisingly well. In the credit-card size version, I suggest using a the TI DRV8835 or [TI DRV8833](http://amzn.to/1lu0bTd).
+I use an TC4424 H-bridge to drive the electromagnet. The TC4424 is a motor driver, but motors are actually driven by the electromagnet(s) and magnets inside of them. Any standard driver should work here. Technically the TC4424 doesn't work down at 3.7V (voltage of the LiPo battery), but it works surprisingly well.
 
 ### [24AWG Magnet Wire](http://amzn.to/1lu0ihK) (coil)
 I use somewhere around ~24AWG magnet wire to act as the coil to produce the electromagnetic field. This piece of wire incredibly produces an electromagnetic field that makes the card reader believe a card is being swiped. Incredible. By rapidly controlling the polarization of this field, the magstripe reader believes the flipped bits of a real card are being swiped through the reader.
