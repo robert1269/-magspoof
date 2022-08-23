@@ -59,6 +59,9 @@ Note that the CVV is different than the CVV2. The CVV is stored on the magstripe
 
 ------
 
+## Wiki and Getting Started
+[Getting Started in our Wiki](https://github.com/ElectronicCats/magspoof/wiki)
+
 # How MagSpoof Works
 
 MagSpoof emulates a magnetic stripe by quickly changing the polarization of an electromagnet, producing a magnetic field similar to that of a normal magnetic stripe as if it's being swiped. What's incredible is that the magstripe reader requires no form of wireless receiver, NFC, or RFID -- MagSpoof works wirelessly, even with **standard magstripe readers.** The stronger the electromagnet, the further away you can use it (a few inches in its current iteration).
