@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\DELL\OneDrive\Documentos\GitHub\magspoof\V3\Hw\Magspoof_V3.kicad_sch</source>
+    <date>23/11/2022 03:13:43 p. m.</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Magspoof V3</title>
+        <company>Electronic Cats</company>
+        <rev>0.1v</rev>
+        <date>2019-08-20</date>
+        <source>Magspoof_V3.kicad_sch</source>
+        <comment number="1" value="Eduardo Contreras"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d60dd69</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CL21A106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21A106KOQNNNG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d62b51e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CL21A106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21A106KOQNNNG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d62a95c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CL21F104ZBCNNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21F104ZBCNNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d649e98</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CL21A106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21A106KOQNNNG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d66311c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CL21A106KOQNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL21A106KOQNNNG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d65e6e6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ON</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="150080RS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d65bc59</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Status</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">150080BS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="150080BS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d660f6d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>MBR120</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="manf#">MBR120VLSFT3G</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="manf#" value="MBR120VLSFT3G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d64ef3a</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>CHG</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">150080GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="150080GS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d6777eb</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>USB:629105150521</footprint>
+      <fields>
+        <field name="manf#">629105150521</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="manf#" value="629105150521"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d60e7eb</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SWD</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d652da2</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Coil</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d6515c5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RMCF0805JT180R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMCF0805JT180R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d65d633</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RMCF0805JT180R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMCF0805JT180R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d660f77</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RS-05K472JT</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RS-05K472JT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d6565d3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CRCW0805470RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CRCW0805470RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d6809eb</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d621e1c</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>S1</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d62295f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP2112K-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="manf#">AP2112K-3.3</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"/>
+      <property name="manf#" value="AP2112K-3.3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d62655e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATSAMD11C14A</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <fields>
+        <field name="manf#">ATSAMD11C14A-SSUT</field>
+      </fields>
+      <libsource lib="Magspoof_V3-rescue" part="ATSAMD11C14A-electroniccats" description=""/>
+      <property name="manf#" value="ATSAMD11C14A-SSUT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d6167ad</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TC4424</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/268/21998b-53545.pdf</datasheet>
+      <fields>
+        <field name="manf#">TC4424AVOA713</field>
+      </fields>
+      <libsource lib="Magspoof_V3-rescue" part="TC4424-electroniccats" description=""/>
+      <property name="manf#" value="TC4424AVOA713"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d61f320</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MCP73831</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="manf#">MCP73831T-5ACI/OT&#xD;</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="manf#" value="MCP73831T-5ACI/OT&#xD;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="C:/Users/DELL/OneDrive/Documentos/GitHub/magspoof/V3/Hw/Magspoof_V3.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005d644f3c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73831-2-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Magspoof_V3-rescue" part="ATSAMD11C14A-electroniccats">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAMD11C14A-electroniccats</field>
+        <field name="Footprint">Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</field>
+        <field name="manf#">ATSAMD11C14A-SSUT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA05/A3/EINT5/SERCOM0.3" type="bidirectional"/>
+        <pin num="2" name="PA08/EINT6/SERCOM1.2" type="bidirectional"/>
+        <pin num="3" name="PA09/EINT7/SERCOM1.3" type="bidirectional"/>
+        <pin num="4" name="PA14/A6/NMI/I2C/SERCOM0.0" type="bidirectional"/>
+        <pin num="5" name="PA15/A7/EINT1/I2C/SERCOM0.1" type="bidirectional"/>
+        <pin num="6" name="RST/PA28" type="bidirectional"/>
+        <pin num="7" name="PA30" type="bidirectional"/>
+        <pin num="8" name="PA31" type="bidirectional"/>
+        <pin num="9" name="PA24/D-" type="bidirectional"/>
+        <pin num="10" name="PA25/D+" type="bidirectional"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VDD" type="power_in"/>
+        <pin num="13" name="PA02/A0/EINT2/DAC" type="bidirectional"/>
+        <pin num="14" name="PA04/A2/EINT4/SERCOM0.2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Magspoof_V3-rescue" part="TC4424-electroniccats">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TC4424-electroniccats</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="manf#">TC4424AVOA713</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="input"/>
+        <pin num="2" name="IN_A" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="IN_B" type="input"/>
+        <pin num="5" name="OUT_B" type="input"/>
+        <pin num="6" name="VDD" type="input"/>
+        <pin num="7" name="OUT_A" type="input"/>
+        <pin num="8" name="NC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2112K-3.3">
+      <description>600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2112.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Magspoof_V3-rescue">
+      <uri>C:\Users\DELL\OneDrive\Documentos\GitHub\magspoof\V3\Hw/Magspoof_V3-rescue.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U2" pin="12" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VDD" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="VBAT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/D+">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="10" pinfunction="PA25/D+" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/D-">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="PA24/D-" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/IN_A">
+      <node ref="U2" pin="2" pinfunction="PA08/EINT6/SERCOM1.2" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="6" name="/IN_B">
+      <node ref="U2" pin="3" pinfunction="PA09/EINT7/SERCOM1.3" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="IN_B" pintype="input"/>
+    </net>
+    <net code="7" name="/LED">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="PA14/A6/NMI/I2C/SERCOM0.0" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Out_A">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="9" name="/Out_B">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT_B" pintype="input"/>
+    </net>
+    <net code="10" name="/RST">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="RST/PA28" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/SW1">
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="PA02/A0/EINT2/DAC" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/SWCLK">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="PA30" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/SWDIO">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="PA31" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J1" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="20" name="VBUS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pinfunction="PA05/A3/EINT5/SERCOM0.3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PA15/A7/EINT1/I2C/SERCOM0.1" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="PA04/A2/EINT4/SERCOM0.2" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
