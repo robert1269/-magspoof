@@ -1,8 +1,10 @@
 
-# MagSpoof v3 - credit card/magstripe spoofer
+# MagSpoof V3 - Credit Card/Magstripe Spoofer
 
 <a href="https://electroniccats.com/producto/magspoof-v3/">
+  <p align="center">
   <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" height="104" />
+  </p>
 </a>
 
 * Allows you to store all of your credit cards and magstripes in one device
