@@ -7,6 +7,10 @@
   </p>
 </a>
 
+# How does MagSpoof work?
+
+**MagSpoof V3** is a device that can spoof/emulate any magnetic stripe or credit card. It can work "wirelessly", even on **standard magstripe/credit card readers**, by generating a strong electromagnetic field that emulates a traditional magnetic stripe card.
+
 * Allows you to store all of your credit cards and magstripes in one device
 * Works on traditional magstripe readers **wirelessly** (no NFC/RFID required)
 * Can **disable** Chip-and-PIN (code not included)
@@ -14,105 +18,19 @@
 * Supports all three magnetic stripe tracks, and even supports Track 1+2 simultaneously
 * Easy to build using Arduino or other common parts
 
-**MagSpoof V3** is a device that can spoof/emulate any magnetic stripe or credit card. It can work "wirelessly", even on **standard magstripe/credit card readers**, by generating a strong electromagnetic field that emulates a traditional magnetic stripe card.
-
-**Note:** MagSpoof does **not** enable you to use credit cards that you are not legally authorized to use. The Chip-and-PIN and Amex information is **not** implemented and using MagSpoof requires you to have/own the magstripes that you wish to emulate. Simply having a credit card number and expiration is not enough to perform transactions. MagSpoof **does** allow you to perform research in other areas of magstripes, microcontrollers, and electromagnetism, as well as learn about and create your own devices similar to other existing, commercial technologies such as <a href="http://www.samsung.com/us/support/answer/ANS00043865/997410383/">Samsung MST</a> and <a href="https://onlycoin.com/">Coin</a>.</p>
-
-
-[![Visualizing magstripe data](http://samy.pl/magspoof/meter-small2.gif)](http://samy.pl/magspoof/meter-small2.gif)
-
 MagSpoof can be used as a traditional credit card and simply store all of your credit cards (and with modification, can technically disable chip requirements) in various impressive and exciting form factors, or can be used for security research in any area that would traditionally require a magstripe, such as readers for credit cards, drivers licenses, hotel room keys, automated parking lot tickets, etc.
 
-**Live demonstration** and more details available in the video:
-<a href="https://www.youtube.com/watch?v=UHSFf0Lz1qc" target="_blank"><img src="http://img.youtube.com/vi/UHSFf0Lz1qc/0.jpg" alt="MagSpoof" width="640" height="480" border="10" /></a>
-
-**Point of Contact:** [@SamyKamkar](https://twitter.com/samykamkar) // <code@samy.pl> // <http://samy.pl>
-
-**Released:** November 24, 2015
+**Note:** MagSpoof does **not** enable you to use credit cards that you are not legally authorized to use. The Chip-and-PIN and Amex information is **not** implemented and using MagSpoof requires you to have/own the magstripes that you wish to emulate. Simply having a credit card number and expiration is not enough to perform transactions. MagSpoof **does** allow you to perform research in other areas of magstripes, microcontrollers, and electromagnetism, as well as learn about and create your own devices similar to other existing, commercial technologies such as <a href="http://www.samsung.com/us/support/answer/ANS00043865/997410383/">Samsung MST</a> and <a href="https://onlycoin.com/">Coin</a>.</p>
 
 **Source code / schematic:** [https://github.com/ElectronicCats/magspoof](https://github.com/ElectronicCats/magspoof)
 
 -----
 
-# How magnetic stripes work
-
-[![Visualizing magstripe data](http://samy.pl/magspoof/iron-oxide-short-low.gif)](http://samy.pl/magspoof/iron-oxide-short-low.gif)
-
-Magnetic stripes (magstripes) are in fact magnetic. What's so cool about magstripes is that while the magnetic strips inside are weak, they're still strong enough to attract small ferrous particles and wide enough that we can **fully extract all data from a magstripe or credit card with the naked eye**. 
-
-In the video, I actually dip my credit card into a bag of iron oxide. The magnetic elements in the magstripe attract the iron oxide and after pulling it out, you can actually see each bit in the tracks. [Financial cards](https://en.wikipedia.org/wiki/Magnetic_stripe_card#Financial_cards) with magnetic strips can have up to three tracks, however credit cards only have two tracks (Tracks 1 and 2). Track 2 stores fewer bits than Track 1, so it has a lower linear density (bits per inch).  This makes Track 2 much easier to see. Let's take a look:
-
-[![Credit card magnetic stripe](http://samy.pl/magspoof/mag1.png)](http://samy.pl/magspoof/mag1.png)
-
-Front of card:
-
-[![Credit card magnetic stripe](http://samy.pl/magspoof/cc-front.jpg)](http://samy.pl/magspoof/cc-front.jpg)
-
-
-As you can see on my card, I've written out the bits above the strips. Two solid stripes is a 1 and a stripe followed by a space is a 0. First, let's flip the card 180 degrees (looking at it upside down), and read it as least significant bit first. We ignore all the initial 0's until the very first 1.
-
-Track 2 is 5 bits per character, least significant bit first, and the 5th bit is an odd parity bit. By taking each 5 bits and reading the first 4 bits, we can now begin extracting the credit card number (and other data, such as expiration date, discretionary data, CVV/CVC/CSC/CID/CAV depending on card type).
-
-Note that the CVV is different than the CVV2. The CVV is stored on the magstripe, while the CVV2 is printed on a card. (CVV is specific to Visa, and each issuer has their own name such as CSC, CVC, etc.)
-
-
-[![Credit card magnetic stripe](http://samy.pl/magspoof/cciron.jpg)](http://samy.pl/magspoof/cciron.jpg)
-
-
-------
-
 ## Wiki and Getting Started
 [Getting Started in our Wiki](https://github.com/ElectronicCats/magspoof/wiki)
 
-# How MagSpoof Works
-
-MagSpoof emulates a magnetic stripe by quickly changing the polarization of an electromagnet, producing a magnetic field similar to that of a normal magnetic stripe as if it's being swiped. What's incredible is that the magstripe reader requires no form of wireless receiver, NFC, or RFID -- MagSpoof works wirelessly, even with **standard magstripe readers.** The stronger the electromagnet, the further away you can use it (a few inches in its current iteration).
-
-MagSpoof also uses inexpensive, off the shelf parts (described in the Hardware section), and can be built with almost nothing more than an Arduino, wire and a battery! I use a motor driver to provide a reasonable amount of power.
-
-Normally electromagnets have an iron core, however we lose the core for the sake of space and portability. Also, while the iron core does make the electromagnet more efficient, we still produce more than enough power to work.
-
-**MagSpoof improves on new cards such as Coin.** I'm a customer of Coin, and while I love their app and the card, the card actually works a very small percentage of the time. After looking over Coin's FCC docs, I noticed they use two coils to produce a (very small) electromagnetic field, however it's severely deficient and the card works less than 50% of the time for me, sadly.
-
-I found that by emulating a card with MagSpoof, if I send Track 1 one way, and then send Track 2 reversed, every card reader will assume I simply swiped a card back and forth, use the data from both tracks and my strong electromagnet, and properly read all of the data. This is extremely effective, uses only a single coil, and works for both tracks simultaneously. This also allows MagSpoof to work on Track 3.
-
-Additionally, if you're using a Chip card with Coin, you **still** need to bring your actual credit card to dip, however because MagSpoof can disable Chip-and-PIN (see below), it does **not** require you to bring your card with you.
-
-I've removed the Chip-and-PIN disabling functionality from MagSpoof.
-
 -----
 
-# Security Issues
-
-One of the primary issues I've found is that some of the new forms of security (well, new in the US) are set in the "service code" portion of the magstripe, most specifically **Chip-and-PIN.**
-
-The service code within a credit card magstripe defines several attributes of the card, including whether the card can dispense cash, where it can work (nationally, internationally), and most interestingly, whether the card has a built in IC (Chip) and if it has a pin (Chip-and-PIN / EMV).
-
-If your card has a chip inside and you go to a retailer that supports Chip but swipe just your magstripe, the point of sale (PoS) system will ask you to dip your card/chip for additional security if it supports it.
-
-**However, the bits stating the card has Chip-and-PIN can be turned off from the magstripe.** This means if you take a card to a retailer that would normally request you to dip, you can actually get away with not dipping your chip at all while performing a successful transaction, **evading the security measures altogether**.
-
-[![Credit Card Service Codes](http://samy.pl/magspoof/servicecodes.jpg)](http://samy.pl/magspoof/servicecodes.jpg)
-
-------
-
-# American Express Card Number Prediction
-
-What initially led me to investigate magnetic stripes was my Amex card. After losing a card and Amex quickly sending me a replacement, I noticed many of the digits were similar. I pulled up the numbers to several other Amex cards I had, and then compared against more than 20 other Amex cards and replacements and found **a global pattern that allows me to accurately predict American Express card numbers by knowing a full card number, even if already reported lost or stolen.**
-
-This means if I were to obtain your Amex card and you called it in as lost or stolen, the moment you get a new card, I know your new credit card number.
-
-I also know the new expiration date as the expiration date is fixed based on when the new card was requested, and you can determine if the new card has been requested by performing an auth on the existing card.
-
-The CID (aka CVV2 on Visa) printed on the card is protected by a secret 3DES key that encrypts the PAN (Primary Account Number, aka credit card number), service code (see above), and expiration. The service code can be easily determined as most cards will contain the same service code.
-
-I also determined that the CSC (essentially behaves like a CID or CVV2 on the magstripe) for a lost or stolen card **continues to work** for a newer, predicted card. An attacker would be able to use a stolen card's CSC with the predicted card number and expiration to make actual purchases.
-
-To actually perform the transaction without arousing suspicion, an attacker would be able to use a magstripe writer (e.g., the well known MSR605), or a device like MagSpoof, to "load" the newly devised card information onto a card like Coin. Coin itself does not actually verify the CID (CVV2), thus allowing an attacker to load data, and then use the Coin card in person without knowing the CID and exploiting these various issues, as well as disabling Chip-and-PIN.
-
-I notified American Express of the issue and I will not be releasing their algorithm.
-
------
 # Hardware Versions
 
 ## Version DIY
