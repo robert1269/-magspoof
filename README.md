@@ -24,7 +24,7 @@ MagSpoof can be used as a traditional credit card and simply store all of your c
 
 -----
 
-# Based in work of SamyKamkar
+# Based in work of Samy Kamkar
 
 **Point of Contact:** [@SamyKamkar](https://twitter.com/samykamkar)
 
