@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Admin\Documents\GitHub\magspoof\V4\Hw\Magspoof_V4.kicad_sch</source>
+    <date>11/04/2023 06:07:14 p. m.</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Magspoof_V4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Single-cell battery"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0a747d7-56b9-4812-893e-6d01809214f3</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C49678</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value=""/>
+      <property name="LCSC#" value="C49678"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a38a5f0-fc58-4772-a0a9-eba3cf292351</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C49678</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value=""/>
+      <property name="LCSC#" value="C49678"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cde35a8d-51fb-43c3-a8e8-ea24236cdf3b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/1811021421_Samsung-Electro-Mechanics-CL10A106MP8NNNC_C85713.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C85713</field>
+        <field name="manf#">CL10A106MP8NNNC</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="CL10A106MP8NNNC"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="LCSC#" value="C85713"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0b977c7-6de4-4ee7-b8da-055875517372</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/1811021421_Samsung-Electro-Mechanics-CL10A106MP8NNNC_C85713.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C85713</field>
+        <field name="manf#">CL10A106MP8NNNC</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="CL10A106MP8NNNC"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="LCSC#" value="C85713"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>340b652d-5b3c-4124-9e53-54f24202d7e2</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/1811021421_Samsung-Electro-Mechanics-CL10A106MP8NNNC_C85713.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C85713</field>
+        <field name="manf#">CL10A106MP8NNNC</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="CL10A106MP8NNNC"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="LCSC#" value="C85713"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7acf71d3-6e06-49b0-87fd-c1613070b199</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~https://datasheet.lcsc.com/lcsc/1811021421_Samsung-Electro-Mechanics-CL10A106MP8NNNC_C85713.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C85713</field>
+        <field name="manf#">CL10A106MP8NNNC</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="manf#" value="CL10A106MP8NNNC"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="LCSC#" value="C85713"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af4a8306-6543-4c59-837e-dce76775b3a8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MBR120</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC#">C130880</field>
+        <field name="manf#">MBR120LSF</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Diode" part="MBR340" description="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="LCSC#" value="C130880"/>
+      <property name="manf#" value="MBR120LSF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="40V 3A Schottky Barrier Rectifier Diode, DO-201AD"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4aaa564-3f78-4eb9-a69a-393adf06398f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Status</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/445/150080VS75000-1714385.pdf</datasheet>
+      <fields>
+        <field name="manf#">150080VS75000</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="150080VS75000"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c6b9f28-7246-4784-9e74-3c26940ecdb8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>CHG</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/445/150080RS75000-1714740.pdf</datasheet>
+      <fields>
+        <field name="manf#">150080GS75000</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="150080GS75000"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>883e6f20-47e8-47d2-b5d9-cc0446104d91</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0.5A</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/427/mfuserie-1762582.pdf</datasheet>
+      <fields>
+        <field name="manf#">MFU0805FF00500P100</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <property name="manf#" value="MFU0805FF00500P100"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Fuse, small symbol"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc639730-a7df-475f-a378-f5e8e52a3fa6</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d092452-a28f-4911-83f3-178bc663fcad</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>207cb308-c1e0-4ab6-9bd5-12ce3c501b56</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89ee4299-466d-4552-849a-989973340066</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d67cf486-1c4f-4428-8b94-45410e79f2e0</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Coil</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8002ee8-3cf2-4409-ae80-9ef959f95aad</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SWD</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="manf#">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e151add3-871c-47e3-9928-60983bcc8283</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>boot</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aab06b00-5edb-4845-8812-06897f39b2a0</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>USB_C_Plug_USB2.0</value>
+      <footprint>Connectors:C393939</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC#">C2987386</field>
+        <field name="manf#">USB4105-GF-A</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Plug_USB2.0" description="USB 2.0-only Type-C Plug connector"/>
+      <property name="LCSC#" value="C2987386"/>
+      <property name="manf#" value="USB4105-GF-A"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Plug connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>860de171-7d53-447c-af6f-25d5e7a46c45</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG3415U-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/115/ds31735-64958.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C96616</field>
+        <field name="manf#">DMG3415UQ-7</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC#" value="C96616"/>
+      <property name="manf#" value="DMG3415UQ-7"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="P-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>237041b0-d00e-47a1-b73b-4b24a4f60fc7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>20K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/54/cr-1858361.pdf</datasheet>
+      <fields>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">CR0805-FX-2002ELF</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="CR0805-FX-2002ELF"/>
+      <property name="LCSC#" value=""/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d325466-d18d-4531-abd0-7c28d6cabddf</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810170519_PANASONIC-ERJ3RBD5101V_C191782.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C191782</field>
+        <field name="manf#">RC0603JR-075K1L</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC#" value="C191782"/>
+      <property name="manf#" value="RC0603JR-075K1L"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33f4aaf8-a176-437f-a414-d7ac4059cffe</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810170519_PANASONIC-ERJ3RBD5101V_C191782.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C191782</field>
+        <field name="manf#">RC0603JR-075K1L</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC#" value="C191782"/>
+      <property name="manf#" value="RC0603JR-075K1L"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>067fe3fd-332c-47e4-9ead-e7a2fe9f2c00</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>180R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/219/RK73B-1825463.pdf</datasheet>
+      <fields>
+        <field name="manf#">RK73B1JTTDD181J</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RK73B1JTTDD181J"/>
+      <property name="LCSC#" value=""/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76a213b6-6583-41fb-9060-f08c0beaba57</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810170519_PANASONIC-ERJ3RBD5101V_C191782.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C191782</field>
+        <field name="manf#">RC0603JR-075K1L</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC#" value="C191782"/>
+      <property name="manf#" value="RC0603JR-075K1L"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fc87d9b-8dc3-4f06-87d3-efdf6c78a8db</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf</datasheet>
+      <fields>
+        <field name="manf#">RC0603FR-13470RL</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RC0603FR-13470RL"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>817ff46b-8400-4a41-99ed-8a7a4d90ff62</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151133_Walsin-Tech-Corp-WR06X104JTL_C163843.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C15458</field>
+        <field name="manf#">RC0603FR-07100KL</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf#" value="RC0603FR-07100KL"/>
+      <property name="LCSC#" value="C15458"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0cdc58a-5595-405f-9198-cfdf0789ba22</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>ON</value>
+      <footprint>Library:JS102011SAQN</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/60/js-1841892.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">-</field>
+        <field name="manf#">JS102011SAQN</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="LCSC#" value="-"/>
+      <property name="manf#" value="JS102011SAQN"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82badb38-816b-4eef-935f-93cb2e4421bc</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>S1</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2205161616_E-Switch-TL3342F450QG_C2886897.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C2886897</field>
+        <field name="manf#">TL3342F450QG</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="manf#" value="TL3342F450QG"/>
+      <property name="LCSC#" value="C2886897"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25d34e9b-f2ec-4639-b096-cd3105b4d046</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SOURCE MAG</value>
+      <footprint>Library:JS102011SAQN</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/60/js-1841892.pdf</datasheet>
+      <fields>
+        <field name="manf#">JS202011CQN</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="manf#" value="JS202011CQN"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba08d33b-4dc1-497e-9a02-90cf149e9f05</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/140/TL3342-2065746.pdf</datasheet>
+      <fields>
+        <field name="Proveedor">MOUSER</field>
+        <field name="manf#">TL3342F450QG</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Proveedor" value="MOUSER"/>
+      <property name="manf#" value="TL3342F450QG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa5842d0-589a-44f8-8321-842a1213c341</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CH552G</value>
+      <footprint>Package_SO:SOP-16_4.55x10.3mm_P1.27mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2008191734_WCH-Jiangsu-Qin-Heng-CH552G_C111292.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C111292</field>
+        <field name="Proveedor">LCSC</field>
+      </fields>
+      <libsource lib="electroniccats" part="CH552G" description=""/>
+      <property name="LCSC#" value="C111292"/>
+      <property name="Proveedor" value="LCSC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01919f31-e999-4ffe-a0c4-fdbae962acde</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP2112K-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="LCSC#">C150742</field>
+        <field name="manf#">AP7347DQ-33W5-7</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="HunterCat-NFC-rescue" part="AP2112K-3.3-Regulator_Linear" description=""/>
+      <property name="manf#" value="AP7347DQ-33W5-7"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="LCSC#" value="C150742"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53a0234c-169c-4b04-a766-628b095e274f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TC4424</value>
+      <footprint>Library:TC4424EMF(v3)</footprint>
+      <datasheet>https://www.mouser.mx/datasheet/2/268/21998b-53545.pdf</datasheet>
+      <fields>
+        <field name="manf#">TC4424AVOA</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Magspoof_V3-rescue" part="TC4424-electroniccats" description=""/>
+      <property name="manf#" value="TC4424AVOA"/>
+      <property name="LCSC#" value=""/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0dd8cde0-a2dc-443f-a745-caf256975cf2</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP73831</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="manf#">MCP73831T-5ACI/OT
+</field>
+        <field name="provedor">MOUSER</field>
+      </fields>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="manf#" value="MCP73831T-5ACI/OT&#xA;"/>
+      <property name="provedor" value="MOUSER"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Magspoof_V4.kicad_sch"/>
+      <property name="ki_description" value="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <property name="ki_keywords" value="battery charger lithium"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d390801-a6f9-413f-9f8e-968e06563a41</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73831-2-OT">
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Plug_USB2.0">
+      <description>USB 2.0-only Type-C Plug connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Plug*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_C_Plug_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="VCONN" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR340">
+      <description>40V 3A Schottky Barrier Rectifier Diode, DO-201AD</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</docs>
+      <footprints>
+        <fp>D*DO?201AD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR340</field>
+        <field name="Footprint">Diode_THT:D_DO-201AD_P15.24mm_Horizontal</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MBR340-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HunterCat-NFC-rescue" part="AP2112K-3.3-Regulator_Linear">
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Magspoof_V3-rescue" part="TC4424-electroniccats">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TC4424-electroniccats</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="manf#">TC4424AVOA713</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="input"/>
+        <pin num="2" name="IN_A" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="IN_B" type="input"/>
+        <pin num="5" name="OUT_B" type="input"/>
+        <pin num="6" name="VDD" type="input"/>
+        <pin num="7" name="OUT_A" type="input"/>
+        <pin num="8" name="NC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="electroniccats" part="CH552G">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">CH552G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P3.2" type="input"/>
+        <pin num="2" name="P1.4" type="input"/>
+        <pin num="3" name="P1.5" type="input"/>
+        <pin num="4" name="P1.6" type="input"/>
+        <pin num="5" name="P1.7" type="input"/>
+        <pin num="6" name="RST" type="input"/>
+        <pin num="7" name="P3.1" type="input"/>
+        <pin num="8" name="P3.0" type="input"/>
+        <pin num="9" name="P1.1" type="input"/>
+        <pin num="10" name="P3.3" type="input"/>
+        <pin num="11" name="P3.4" type="input"/>
+        <pin num="12" name="P3.6" type="input"/>
+        <pin num="13" name="P3.7" type="input"/>
+        <pin num="14" name="GND" type="input"/>
+        <pin num="15" name="VCC" type="input"/>
+        <pin num="16" name="V33" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VCC" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="V33" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+BATT">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VBAT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/D+">
+      <node ref="P1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="P3.6" pintype="input"/>
+    </net>
+    <net code="4" name="/D-">
+      <node ref="P1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="13" pinfunction="P3.7" pintype="input"/>
+    </net>
+    <net code="5" name="/IN_A">
+      <node ref="U1" pin="2" pinfunction="P1.4" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="IN_B" pintype="input"/>
+    </net>
+    <net code="6" name="/IN_B">
+      <node ref="U1" pin="3" pinfunction="P1.5" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="IN_A" pintype="input"/>
+    </net>
+    <net code="7" name="/LED">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="P3.4" pintype="input"/>
+    </net>
+    <net code="8" name="/Out_A">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="OUT_A" pintype="input"/>
+    </net>
+    <net code="9" name="/Out_B">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT_B" pintype="input"/>
+    </net>
+    <net code="10" name="/RST">
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="11" name="/RXD">
+      <node ref="U1" pin="4" pinfunction="P1.6" pintype="input"/>
+    </net>
+    <net code="12" name="/SW1">
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="P1.1" pintype="input"/>
+    </net>
+    <net code="13" name="/SWCLK">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/SWDIO">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="15" name="/TXD">
+      <node ref="U1" pin="5" pinfunction="P1.7" pintype="input"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="P1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="P1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GND" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="17" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="P1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="P1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(JP1-A)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(P1-CC)">
+      <node ref="P1" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(P1-VCONN)">
+      <node ref="P1" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(SW1-B)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(SW4A-B)">
+      <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U5-PROG)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U5-STAT)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="28" name="VBUS">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="29" name="unconnected-(U1-P3.0-Pad8)">
+      <node ref="U1" pin="8" pinfunction="P3.0" pintype="input+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-P3.1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="P3.1" pintype="input+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-P3.2-Pad1)">
+      <node ref="U1" pin="1" pinfunction="P3.2" pintype="input+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-P3.3-Pad10)">
+      <node ref="U1" pin="10" pinfunction="P3.3" pintype="input+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-NC-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U3-NC-Pad1)">
+      <node ref="U3" pin="1" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U3-NC-Pad8)">
+      <node ref="U3" pin="8" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
