@@ -3488,7 +3488,7 @@
     (property "Datasheet" "https://www.mouser.mx/datasheet/2/445/150080VS75000-1714385.pdf" (at 147.32 32.512 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "150080VS75000" (at 211.582 292.735 0)
+    (property "manf#" "150080GS75000" (at 211.582 292.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Proveedor" "MOUSER" (at 147.32 32.512 0)
